@@ -1,23 +1,26 @@
 # ColumnCompute 
 
 ## Table of content
-1. FlowChart (HLD)
-2. Features
-3. Tech Stack
-4. Installation
-5. Future Scope
-6. Usage
+1. Quick Walkthrough
+2. FlowChart (HLD)
+3. Features
+4. Tech Stack
+5. Installation
+6. Future Scope
+7. Usage
 
 
 ---
+## 1. Quick Walkthrough
 
-## FlowChart (HLD)
+---
+## 2. FlowChart (HLD)
 Here’s the high-level diagram showing the architecture of the project.
 ![image](https://github.com/user-attachments/assets/25e44262-e69f-4802-9954-704e52416cf6)
 
 ---
 
-## Features
+## 3. Features
 
 1. **Third-Party Authentication**  
    Uses [Auth0](https://auth0.com/) for secure authentication with trusted Google services.
@@ -37,12 +40,33 @@ Here’s the high-level diagram showing the architecture of the project.
    Uses a **Dockerfile** to consolidate dependencies, simplifying deployment and enabling scalable containerization for high traffic.
 
 ---
-## Tech Stack
-1. Frontend 
+## 4. Tech Stack
+1. Frontend
+   
    <img src="https://github.com/user-attachments/assets/3ea4e122-1987-4569-a203-0caed7ba4f6b" width="90"/>
 2. Backend
+   
     <img src="https://github.com/user-attachments/assets/bad1b8ca-e958-484b-8f11-58cd27135b67" width="90"/>
 
+3. Database
 
+   <img src="https://github.com/user-attachments/assets/56225414-9738-4797-bc81-9588f6c2615b" width="180"/>
+
+4. Other Framework/Platform
+
+   <img src="https://github.com/user-attachments/assets/8e0b0200-914c-4946-9b19-0d22df7c7fef" width="90"/>
+   <img src="https://github.com/user-attachments/assets/3201f4d5-63fe-4c83-9163-f3bf9f764b30" width="90"/>
+   <img src="https://github.com/user-attachments/assets/29141537-609f-419e-8bdf-68249c229198" width="180"/>
+
+---
+
+## 5. Installation
+
+
+---
+## 6. Future Scope
+Enchanced  Data Visualisation
+ Add various visualizations, such as histograms, pie charts, and other interactive charts, to improve data analysis and provide better insights for users.
+   
 
 
