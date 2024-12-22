@@ -7,7 +7,6 @@
 4. Tech Stack
 5. Installation
 6. Future Scope
-7. Usage
 
 
 ---
@@ -61,12 +60,68 @@ Here’s the high-level diagram showing the architecture of the project.
 ---
 
 ## 5. Installation
+1. Clone
+```
+git clone https://github.com/Priyam7295/ColumnCompute.git
+```
+2. Go the ColumnCompute directory
+```
+cd ColumnCompute
+````
+3. create .env
+```
+```
+4. copy this in .env created
+```
+NEXT_PUBLIC_SUPABASE_KEY=supabasrKey
+NEXT_PUBLIC_SUPABASE_URL=SupabaseURL
+NEXT_PUBLIC_GOOGLE_API_KEY= yourGoogleGenAikey
+```
+5. create requirements.txt
+```
+```
+6. Copy this to the txt file
+```
+Flask
+Flask-CORS
+pandas
+numpy
+supabase
+python-dotenv
+google-generativeai
 
+```
+7. Run this to start server
+```
+pip install -r requirements.txt
+python back.py
+```
+
+8. Go the client directory for running frontend
+```
+cd client
+```
+9. Create .env
+```
+```
+10. Copy this to the created .env
+```
+VITE_REACT_APP_BACKEND_URL=http://localhost:5000
+VITE_REACT_APP_uri=http://localhost:5173/upload
+VITE_REACT_APP_DOMAIN=auth0-domain
+VITE_REACT_APP_CLIENID=auth0-clientId
+```
+11. Run the frontend
+```
+npm i
+npm run dev
+```
 
 ---
 ## 6. Future Scope
 Enchanced  Data Visualisation
  Add various visualizations, such as histograms, pie charts, and other interactive charts, to improve data analysis and provide better insights for users.
-   
+
+
 
 
