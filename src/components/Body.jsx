@@ -1,5 +1,5 @@
 import React from 'react'
-import Chart from "../assets/Chart.png"
+// import Chart from "../assets/Chart.png"
 import "../styles/body.css"
 import Graphh from "../assets/grid2.png"
 function Body() {
