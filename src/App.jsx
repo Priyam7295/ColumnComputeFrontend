@@ -103,12 +103,16 @@ const FileUpload = () => {
     formData.append("operation", operation);
     formData.append("email", user.email);
     formData.append("auth", user.sub);
+
+    const upload_uri =import.meta.env.VITE_BACKEND_URL;
+
     setLoading(true);
     try {
       const response = await axios.post(
         // `${process.env.VITE_BACKEND_URL}/upload`,
         // "http://localhost:5000/upload",
-          "https://columncompute.onrender.com/upload",
+        `${upload_uri}/upload`,
+          // "https://columncompute.onrender.com/upload",
         formData,
         {
           headers: {
