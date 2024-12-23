@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import "../styles/Homepage.css";
 import "./App.css";
-import GraphImage from "./assets/rb_17893.png";
+// import GraphImage from "./assets/rb_17893.png";
 import Navbar2 from "./components/Navbar2.jsx";
 import { createClient } from "@supabase/supabase-js";
 // import { config } from 'dotenv';
