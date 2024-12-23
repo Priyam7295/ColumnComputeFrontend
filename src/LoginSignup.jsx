@@ -4,9 +4,9 @@ import Navbar from './components/Navbar.jsx';
 import Heading from './components/Heading.jsx';
 import Body from "./components/Body.jsx";
 import "./styles/LoginSignup.css" 
-import Chart from "./assets/Chart.png";
+// import Chart from "./assets/Chart.png";
 import Chart2 from "./assets/grid1.jpg";
-import Chart3 from "./assets/grid2.png";
+// import Chart3 from "./assets/grid2.png";
 
 const LoginSignup = () => {
   const { loginWithRedirect, logout, user, isAuthenticated } = useAuth0();
